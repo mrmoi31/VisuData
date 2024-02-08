@@ -10,12 +10,6 @@ body {
     box-sizing: border-box;
 }
 
-.python{
-	margin: 10px;
-	border-radius: 10px;
-	overflow: hidden;
-}
-
 .dashboard {
 	display: flex;
 	flex-direction: column;
@@ -30,19 +24,21 @@ body {
 
 .header h1 {
 	margin: 0;
+	max-width: 300px;
 }
 
 .nav {
 	display: block;
 	padding: 20px;
-	position: sticky;
 	top: 20px;
+	margin-right: 12%;
+	padding-bottom: 2%;
 }
 
 .nav ul {
 	display: flex;
 	flex-wrap: nowrap;
-	flex-direction: row;
+	flex-direction: row-reverse;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -61,14 +57,15 @@ body {
 	color: #fff;
 	text-decoration: underline;
 }
-.content {
-	padding: 20px;
-	width: 10px;
-	flex: 2;
+
+.python{
+	margin: 10px;
+	border-radius: 10px;
+	overflow: hidden;
 }
 
-.content h2 {
-	margin-top: 0;
+.explications h2{
+	margin-left: 20px;
 }
 
 .footer{
