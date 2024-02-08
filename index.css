@@ -72,6 +72,9 @@ body {
 	margin-top: 10px;
 	background-color: #666;
 	color: white;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
 }
 
 .footer ul {
@@ -89,7 +92,14 @@ body {
 	font-weight: bold;
 }
 
-.footer h5{
+.footer ul{
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	gap: 5%;
+}
+
+.footer h4{
 	text-align: right;
 	justify-content: right;
 	padding-bottom: 5px;
