@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-fr">
 <head>
-  <title>Message Board - {% block title %}  {% endblock title %}</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{ url_for('static',filename='/css/index.css') }}">
+  <title>Visualisation Données</title>
 </head>
+{% extends _navigation.html %}
 <body>
 <h1>Message Board</h1>
 <section>
@@ -11,6 +15,8 @@
     {% block header %}  {% endblock header %}
   </header>
   <main>
+    {% block graph %}<h1>Titre Graph</h1> {% endblock graph %}
+    <h2 class="explications">Explications :</h2>
     {% block content %}<p>No messages.</p>{% endblock content %}
   <main>
 </section>
