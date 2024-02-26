@@ -9,7 +9,5 @@
 >[!Caution]
 >Démarrez le projet avec un serveur web (ex: XAMPP, UWAMP,...)
 
-- [ ] Modifier le menu
-
 
 Blanco Theo, Lemoine Mathieu, Levasseur Dorian, Longuet Cedric, Mignot Nicolas
