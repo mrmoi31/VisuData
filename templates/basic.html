@@ -14,7 +14,8 @@
     {% block header %}  {% endblock header %}
   </header>
   <main>
-    {% block graph %}<h1>Titre Graph</h1> {% endblock graph %}
+    <h1>{% block titre %}Titre Graph{% endblock titre %}</h1>
+    {% block graph %} {% endblock graph %}
     <h2 class="explications">Explications :</h2>
     {% block content %}<p>No messages.</p>{% endblock content %}
   <main>
