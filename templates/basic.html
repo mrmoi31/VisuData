@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="{{ url_for('static',filename='/css/index.css') }}">
   <title>Visualisation Données</title>
 </head>
-{% extends _navigation.html %}
+{% extends {{url_for(filename= _navigation.html)}} %}
 <body>
 <h1>Message Board</h1>
 <section>
